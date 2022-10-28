@@ -1,0 +1,183 @@
+
+.card{
+    margin: auto;
+    margin-top: 15%;
+    height: fit-content;
+    background-color:  hsl(213, 19%, 18%);
+    border-radius: 5%;
+    width: 35%;
+}
+
+body
+{
+   
+    background-color: hsl(216, 12%, 8%);
+}
+
+.card h3 {
+    border-radius: 50%;
+   color: #fff;
+    width: fit-content;
+    padding: 10px;
+    
+    padding-right:15px;
+    margin:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:20px;
+}
+
+.card p {
+    color: hsl(216, 12%, 54%);
+    margin:30px;
+    margin-top:0px;
+}
+
+.card #submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%)  !important  ;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.card #submit:hover{
+    
+    background-color: hsl(25, 84%, 43%)  !important  ;
+   
+}
+.confetti {
+    width: 100%;
+    z-index: -111111;
+}
+
+.card .rate:hover{
+    
+    background-color: hsl(25, 84%, 43%)  !important  ;
+    transition: all 1s ;
+    
+   
+}
+
+.card .rate {
+    background-color: hsl(216, 12%, 8%) ;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    
+    border-radius: 50%;
+    color: #fff;
+}
+
+.card .rating {
+margin: 20px;
+margin-bottom: 25px;
+}
+
+.card .star {
+    background-color: hsl(216, 12%, 8%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card .star img{
+    margin: 15px !important;
+    width:40%
+    
+}
+
+.click{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.card .ty{
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:30%;
+    
+}
+
+.tyend .ratte {
+    background-color: hsl(217, 17%, 27%);
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+}
+
+.tyend h5{
+    font-size: xx-large;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.tyend p{
+    font-size: large;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.tyend {
+    margin: auto;
+    margin-top: 15%;
+    height: fit-content;
+    background-color:  hsl(213, 19%, 18%);
+    border-radius: 5%;
+    width: 35% !important;
+}
+.tyend button:hover{
+    
+    background-color: hsl(25, 84%, 43%)  !important  ;
+    
+    
+   
+}
+
+.tyend button {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%)  !important  ;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:375px){
+
+
+
+    .card {
+        width: 100%;
+    }
+    .tyend {
+        width: 100% !important;
+    }
+}
